@@ -14,6 +14,10 @@ export default function Home({ repositories }) {
       title="Portfolio - Aaron Serrano"
       description="My Personal Portfolio"
     >
+
+      <div className="md:hidden lg:hidden w-full md:w-1/4 -mr-40 mt-20">
+          <img src={userData.avatarUrl} alt="avatar" className="shadow w-80 h-50 mx-auto" />
+      </div>
       <Hero />
       {/*<FavouriteProjects />*/}
       <Experience/>
