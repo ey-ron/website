@@ -7,18 +7,21 @@ import Hero from "../components/Hero";
 import getLatestRepos from "@lib/getLatestRepos";
 import userData from "@constants/data";
 import Experience from "@components/Experience";
+import AboutMe from "@components/AboutMe";
 
 export default function Home({ repositories }) {
   return (
     <ContainerBlock
-      title="Portfolio - Aaron Serrano"
-      description="My Personal Portfolio"
+      title="Aaron Serrano"
+      description="Portfolio"
     >
-
       <div className="md:hidden lg:hidden w-full md:w-1/4 -mr-40 mt-0">
           <img src={userData.avatarUrl} alt="avatar" className="shadow w-80 h-50 mx-auto" />
       </div>
       <Hero />
+      <div className="md:hidden lg:hidden w-full md:w-1/4 -mr-40 mt-0">
+          <AboutMe/>
+      </div>
       {/*<FavouriteProjects />*/}
       <Experience/>
       {/*<LatestCode repositories={repositories} />*/}
