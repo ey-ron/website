@@ -5,13 +5,13 @@ export default function AboutMe2() {
   return (
     <section className="bg-white dark:bg-gray-800">
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
-        <h1 className="text-2xl sm:text-4xl md:text-5xl font-bold py-8 sm:py-32 md:py-2 py-20 text-center md:text-left md:mx-10 md:mt-10 md:py-10">
+        <h1 className="text-2xl sm:text-4xl md:text-5xl font-bold pt-8 sm:py-2 md:py-2 text-center md:text-left md:mx-10 md:mt-10 md:py-10">
           About Me
         </h1>
       </div>
       <br/><br/>
-      <div className="bg-[#F1F1F1] -mt-40 sm:-mt-20 md:-mt-32 dark:bg-gray-900">
-        <div className="text-container max-w-6xl mx-auto pt-2 sm:pt-4 md:pt-10 md:mx-4 xl:mx-40">
+      <div className="bg-[#F1F1F1] -mt-40 sm:-mt-18 md:-mt-32 dark:bg-gray-900">
+        <div className="text-container max-w-6xl mx-auto pt-4 sm:pt-8 md:pt-10 md:mx-4 xl:mx-40">
           <p
             className="leading-loose text-1xl md:text-2xl mx-5 md:mx-6"
             style={{ lineHeight: "1.6rem" }}
