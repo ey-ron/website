@@ -222,7 +222,7 @@ export default function Navbar() {
 
 
       <div className="space-x-6 sm:space-x-4 lg:space-x-8 block md:hidden mt-4">
-        <Link href="/about">
+        <Link href="/about2">
           <a className="text-base font-normal text-gray-600 dark:text-gray-300">
             About
           </a>

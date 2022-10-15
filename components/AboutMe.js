@@ -135,7 +135,7 @@ export default function AboutMe() {
             ))}
 
             <br/><br/>
-            <h1 className="bg-red-500 text-1xl md:text-2xl rounded-md px-2 py-1 inline-block font-bold text-gray-50 md:px-4 md:py-2 md:-mt-20">
+            <h1 className="bg-red-500 text-center text-1xl md:text-2xl rounded-md px-2 py-1 inline-block font-bold text-gray-50 md:px-4 md:py-2 md:-mt-20">
               Tech Stack
             </h1>
             <div className="flex flex-row flex-wrap mt-2 md:mt-8">

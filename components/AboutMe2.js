@@ -1,7 +1,7 @@
 import React from "react";
 import userData from "@constants/data";
 
-export default function AboutMe() {
+export default function AboutMe2() {
   return (
     <section className="bg-white dark:bg-gray-800">
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
@@ -128,7 +128,7 @@ export default function AboutMe() {
             {userData.about.description?.map((desc, idx) => (
               <p
                 key={idx}
-                className="hidden md:block lg:block text-1xl lg:text-lg mx-2 text-gray-700 mb-4 dark:text-gray-300 "
+                className="text-1xl lg:text-lg mx-1 mt-5 text-gray-700 mb-4 dark:text-gray-300 "
               >
                 {desc}
               </p>
