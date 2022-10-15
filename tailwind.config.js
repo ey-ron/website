@@ -10,6 +10,14 @@ module.exports = {
         2000: "2000ms",
         4000: "4000ms",
       },
+      screens: {
+        '2sm': '310px',
+        'sm': '640px',
+        'md': '768px',
+        'lg': '1024px',
+        'xl': '1280px',
+        '2xl': '1536px',
+      }
     },
   },
   variants: {

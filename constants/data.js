@@ -68,7 +68,7 @@ const userData = {
       year: "2022",
       companyLink: "https://www.uobgroup.com/uobgroup/default.page",
       desc: "Consultant for SWIFT Alliance Access - Payments.",
-      details: "Primary developer and support for SWIFT ISO20022 Project, working with the translation of MT to MX, troubleshooting and testing.",
+      details: "Primary developer and support for SWIFT ISO20022 Project, working with the transformation of MT to MX, troubleshooting and testing.",
     },
     {
       title: "Senior Application Consultant",

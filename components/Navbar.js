@@ -139,7 +139,7 @@ export default function Navbar() {
           </Link>
         </div>
 
-        <div className="space-x-4 flex flex-row items-center">
+        <div className="xs:space-x-2 space-x-4 flex flex-row items-center">
           <a
             href={userData.socialLinks.instagram}
             className="text-base font-normal text-gray-600 dark:text-gray-300"
@@ -219,13 +219,15 @@ export default function Navbar() {
           </button>
         </div>
       </div>
-      <div className="sm:space-x-4 lg:space-x-8 block md:hidden mt-4">
+
+
+      <div className="space-x-6 sm:space-x-4 lg:space-x-8 block md:hidden mt-4">
         <Link href="/about">
           <a className="text-base font-normal text-gray-600 dark:text-gray-300">
             About
           </a>
         </Link>
-{/*         <Link href="/projects">
+        {/*<Link href="/projects">
           <a className="text-base font-normal text-gray-600 dark:text-gray-300">
             Projects
           </a>
