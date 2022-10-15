@@ -50,13 +50,13 @@ const userData = {
   ],
   about: {
     title:
-      "A software developer with a passion of catching up with the latest technology available, proposing solutions and ensuring the delivery of quality content",
+      "Just a software developer with a passion of catching up with the latest technology available, proposing solutions and identifies risks that affects delivery of the development",
     description: [
-      `I've been into computer since I was a kid. I started loving the machine because of games, and suddenly realized that there are so much to do and can achieve in a computer.`,
-      `I took IT as course in College and it introduced me to another dimension. I am amazed about how cool programming is.`,
-      `I started working in Accenture as a software developer focusing in COBOL programming language. Eventually, I started to work in different teams using several technologies like Java, .NET, Unix, etc. It didn't take too long before I started to propose solutions to most problems that our instituion haven't explored, I've been working on ideas and soon after are the proof-of-concepts.`,
-      `As time goes by, I felt that something is missing. I am jealous on how technology improves like a speed of light and me not being able to understand. It opened up my heart that I am looking for more challenge and I started working on passion projects that involves modern programming languages. I started coding Python, Solidity for Blockchain Smart Contracts, ReactJS, Bootstrap, CSS, Unity as well for game development.`,
-      `I do play Airsoft as a hobby. It makes me feel super awesome, specially if you hit so many enemies :D`
+      `I've been into computer since I was a kid. I started loving the machine through playing games, it made me discover that there is so much you can do and achieve through a computer.`,
+      `I took up IT for College and it opened up a new dimension. I was amazed at how cool programming is.`,
+      `I started working at Accenture as a software developer focusing in COBOL programming language. Eventually, I started to work in different teams using several technologies like Java, .NET, Unix, etc. It didn't take me long before I started to propose solutions to most problems that our project haven't explored. I've been working on ideas and turned them into proof-of-concepts.`,
+      `At some point, I felt that something was missing. I was frustrated at how technology evolves like a speed of light and I felt like I am unable to keep up. It made me realise that I am looking for more challenge and started working on passion projects that involves modern programming languages. I started coding Python, Solidity for Blockchain Smart Contracts, ReactJS, Bootstrap, CSS, Unity as well for game development.`,
+      `I do play Airsoft as a hobby. It makes me feel super awesome, especially when I hit tons of enemies >_<`
     ],
     currentProject: "Tailwind Master Kit",
     currentProjectUrl: "https://tailwindmasterkit.com",
@@ -67,14 +67,16 @@ const userData = {
       company: "OCBC",
       year: "2022",
       companyLink: "https://www.uobgroup.com/uobgroup/default.page",
-      desc: "Development and Support for SWIFT Alliance Access - Payments.",
+      desc: "Consultant for SWIFT Alliance Access - Payments.",
+      details: "Primary developer and support for SWIFT ISO20022 Project, working with the translation of MT to MX, troubleshooting and testing.",
     },
     {
       title: "Senior Application Consultant",
       company: "UOB",
       year: "2019",
       companyLink: "https://www.uobgroup.com/uobgroup/default.page",
-      desc: "Consultant for Trade Transformation Program.",
+      desc: "Consultant for Trade Transformation Program - Trade Finance.",
+      details: "Primary role as a Technical Delivery Manager that oversees 32 downstream applications identifying risks and ensures timely delivery of technology solutions.",
     },
     {
       title: "Application Developer",
@@ -82,6 +84,7 @@ const userData = {
       year: "2018",
       companyLink: "https://www.uobgroup.com/uobgroup/default.page",
       desc: "Development and Support for FITAS - Trade Finance.",
+      details: "Implemented several projects related to MAS Regulatory, SWIFT enhancements, TAMIC Upgrade and many more.",
     },
     {
       title: "Analyst Programmer",
@@ -89,20 +92,22 @@ const userData = {
       year: "2015",
       companyLink: "https://www.uobgroup.com/uobgroup/default.page",
       desc: "Development and Support for FITAS - Trade Finance.",
+      details: "Main role as a programmer enhancing current process and application capabilities.",
     },
     {
       title: "Software Engineer",
       company: "Accenture",
       year: "2012",
       companyLink: "https://www.accenture.com/ph-en",
-      desc: "AS400 - COBOL Programmer. Works on proof-of-concepts, development and support for Caterpillar Project",
+      desc: "Development and Support for Caterpillar Project",
+      details: "Focuses on introducing new technologies and proof-of-concepts for modern adaptation of the platform.",
     },
     {
-      title: "Graduation",
+      title: "Education",
       company: "Baliuag University, Philippines.",
       year: "2010",
       companyLink: "https://upes.co.in",
-      desc: "Major in Information Technology.",
+      desc: "Bachelor of Science in Information Technology. Major in Computer Engineering.",      
     },
   ],
   resumeUrl:

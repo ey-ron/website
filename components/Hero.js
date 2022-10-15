@@ -9,16 +9,11 @@ export default function Hero() {
     <div className="flex flex-row justify-center items-start overflow-hidden">
       {/* Text container */}
 
-      <div className="w-full md:w-1/2 mx-auto text-center md:text-left lg:p-20">
+      <div className="lg:w-full md:w-1/2 mx-auto text-center md:text-left lg:p-20">
         <RoughNotationGroup show={true}>
           <RainbowHighlight color={colors[0]}>
             <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
               Developer.
-            </h1>
-          </RainbowHighlight>
-          <RainbowHighlight color={colors[1]}>
-            <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
-              Blockchain.
             </h1>
           </RainbowHighlight>
           <RainbowHighlight color={colors[2]}>
@@ -36,10 +31,15 @@ export default function Hero() {
               Gamer.
             </h1>
           </RainbowHighlight>
+          <RainbowHighlight color={'red'}>
+            <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
+              Blockchain.
+            </h1>
+          </RainbowHighlight>
         </RoughNotationGroup>
       </div>
       {/* Image container */}
-      <div className="hidden lg:block relative w-full md:w-1/2 -mr-40 mt-20">
+      <div className="lg:block relative w-full sm:w-1/2 md:w-full md:-mr-40 sm:-mr-20 md:mt-20">
         <div className="w-3/5 ">
           <img src={userData.avatarUrl} alt="avatar" className=" shadow" />
           <div className="flex flex-row justify-between mt-4">
@@ -57,7 +57,7 @@ export default function Hero() {
                   d="M4.854 1.146a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L4 2.707V12.5A2.5 2.5 0 0 0 6.5 15h8a.5.5 0 0 0 0-1h-8A1.5 1.5 0 0 1 5 12.5V2.707l3.146 3.147a.5.5 0 1 0 .708-.708l-4-4z"
                 />
               </svg>
-              <p className="font-mono">That's me, and here's my </p>
+              <p className="font-mono">That's me, and here's my</p>
               <a
                   href={userData.resumeUrl}
                   target="__blank"

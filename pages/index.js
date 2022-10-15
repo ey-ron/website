@@ -15,9 +15,9 @@ export default function Home({ repositories }) {
       title="Aaron Serrano"
       description="Portfolio"
     >
-      <div className="md:hidden lg:hidden w-full md:w-1/4 -mr-40 mt-0">
+{/*       <div className="md:hidden lg:hidden w-full md:w-1/4 -mr-40 mt-0">
           <img src={userData.avatarUrl} alt="avatar" className="shadow w-80 h-50 mx-auto" />
-      </div>
+      </div> */}
       <Hero />
       <div className="md:hidden lg:hidden w-full md:w-1/4 -mr-40 mt-0">
           <AboutMe/>
@@ -25,6 +25,9 @@ export default function Home({ repositories }) {
       {/*<FavouriteProjects />*/}
       <Experience/>
       {/*<LatestCode repositories={repositories} />*/}
+      <div className="sm:hidden md:block lg:block w-full mt-12">
+          <AboutMe/>
+      </div>
     </ContainerBlock>
   );
 }
