@@ -12,8 +12,6 @@ import Opportunity from "@components/Opportunity";
 
 export default function Home({ repositories }) {
 
-  console.log("TEST");
-
   return (
     <ContainerBlock
       title="Aaron Serrano"
