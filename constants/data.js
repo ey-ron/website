@@ -65,7 +65,7 @@ const userData = {
   experience: [
     {
       title: "Senior Consultant",
-      company: "OCBC",
+      company: "OCBC Singapore",
       year: "2022",
       companyLink: "https://www.uobgroup.com/uobgroup/default.page",
       desc: "Consultant for SWIFT Alliance Access - Payments.",
@@ -73,7 +73,7 @@ const userData = {
     },
     {
       title: "Senior Application Consultant",
-      company: "UOB",
+      company: "UOB Singapore",
       year: "2019",
       companyLink: "https://www.uobgroup.com/uobgroup/default.page",
       desc: "Consultant for Trade Transformation Program - Trade Finance.",
@@ -81,7 +81,7 @@ const userData = {
     },
     {
       title: "Application Developer",
-      company: "UOB",
+      company: "UOB Singapore",
       year: "2018",
       companyLink: "https://www.uobgroup.com/uobgroup/default.page",
       desc: "Development and Support for FITAS - Trade Finance.",
@@ -89,7 +89,7 @@ const userData = {
     },
     {
       title: "Analyst Programmer",
-      company: "UOB",
+      company: "UOB Singapore",
       year: "2015",
       companyLink: "https://www.uobgroup.com/uobgroup/default.page",
       desc: "Development and Support for FITAS - Trade Finance.",
@@ -97,7 +97,7 @@ const userData = {
     },
     {
       title: "Software Engineer",
-      company: "Accenture",
+      company: "Accenture Philippines",
       year: "2012",
       companyLink: "https://www.accenture.com/ph-en",
       desc: "Development and Support for Caterpillar Project",
