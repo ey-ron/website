@@ -108,7 +108,7 @@ const userData = {
       company: "Baliuag University, Philippines.",
       year: "2010",
       companyLink: "https://upes.co.in",
-      desc: "Bachelor of Science in Information Technology. Major in Computer Engineering.",      
+      desc: "Bachelor of Science in Information Technology.",      
     },
   ],
   resumeUrl:
