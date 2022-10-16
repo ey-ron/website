@@ -50,7 +50,7 @@ const userData = {
   ],
   about: {
     title:
-      "Just a software developer with a passion of catching up with the latest technology available, proposing solutions and identifies risks that affects delivery of the development",
+      "Just a software developer with a passion for catching up with the latest technology, proposing solutions and identifying risks that may affect project delivery",
     description: [
       `I've been into computer since I was a kid. I started loving the machine through playing games, it made me discover that there is so much you can do and achieve through a computer.`,
       `I took up IT for College and it opened up a new dimension. I was amazed at how cool programming is.`,
@@ -76,7 +76,7 @@ const userData = {
       year: "2019",
       companyLink: "https://www.uobgroup.com/uobgroup/default.page",
       desc: "Consultant for Trade Transformation Program - Trade Finance.",
-      details: "Primary role as a Technical Delivery Manager that oversees 32 downstream applications identifying risks and ensures timely delivery of technology solutions.",
+      details: "Primary role as a Technical Delivery Manager who oversees 32 downstream applications, identify risks, and ensure timely delivery of technology solutions.",
     },
     {
       title: "Application Developer",
