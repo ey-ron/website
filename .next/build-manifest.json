@@ -39,10 +39,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/contact.js"
     ],
-    "/experience": [
+    "/next/dist/pages/_error": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/experience.js"
+      "static/chunks/pages/next/dist/pages/_error.js"
     ]
   },
   "ampFirstPages": []

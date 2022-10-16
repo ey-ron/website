@@ -46,7 +46,7 @@ export default function Hero() {
               Traveller.
             </h1>
           </RainbowHighlight>
-          <RainbowHighlight color={'teal'}>
+          <RainbowHighlight color={'brown'}>
             <h1 className="font-bold text-gray-700 dark:text-gray-200 xs:mx-4 my-1">
               Astronomer.
             </h1>
