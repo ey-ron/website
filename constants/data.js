@@ -1,8 +1,8 @@
 const userData = {
   githubUsername: "ey-ron",
   name: "Aaron Serrano",
-  designation: "Programmer",
-  avatarUrl: "/avatar.jpg",
+  designation: "Millenial",
+  avatarUrl: "/avatar2.jpg",
   email: "aaronbserrano@yahoo.com",
   phone: "+65 98145443",
   address: "Singapore",
@@ -56,7 +56,8 @@ const userData = {
       `I took up IT for College and it opened up a new dimension. I was amazed at how cool programming is.`,
       `I started working at Accenture as a software developer focusing in COBOL programming language. Eventually, I started to work in different teams using several technologies like Java, .NET, Unix, etc. It didn't take me long before I started to propose solutions to most problems that our project haven't explored. I've been working on ideas and turned them into proof-of-concepts.`,
       `At some point, I felt that something was missing. I was frustrated at how technology evolves like a speed of light and I felt like I am unable to keep up. It made me realise that I am looking for more challenge and started working on passion projects that involves modern programming languages. I started coding Python, Solidity for Blockchain Smart Contracts, ReactJS, Bootstrap, CSS, Unity as well for game development.`,
-      `I do play Airsoft as a hobby. It makes me feel super awesome, especially when I hit tons of enemies >_<`
+      `In my free time, I usually read things about the universe. I am a fan of the heavenly bodies from a very young age, and I still do. I dream of being an Astronaut, but haven't had the opportunity yet. Who knows, may be in the near future?`,
+      `Oh! And I do play Airsoft as a hobby. It makes me feel super awesome, especially when I hit tons of enemies >_<`
     ],
     currentProject: "Tailwind Master Kit",
     currentProjectUrl: "https://tailwindmasterkit.com",

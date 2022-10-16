@@ -9,7 +9,7 @@ export default function Hero() {
     <div className="flex flex-row justify-center items-start overflow-hidden">
       {/* Text container */}
 
-      <div className="text-2xl md:text-6xl lg:text-7xl xl:text-8xl mx-4 my-1 text-left md:mt-12 lg:text-center lg:mt-10 lg:mx-20 xl:mx-32">
+      <div className="text-left text-2xl mx-2 my-1 md:text-6xl lg:text-7xl xl:text-8xl md:mt-12 lg:text-center lg:mt-10 lg:mx-20 xl:mx-32">
         <RoughNotationGroup show={true}>
           <RainbowHighlight color={'blue'}>
             <h1 className="font-bold text-gray-700 dark:text-gray-200">
@@ -19,6 +19,16 @@ export default function Hero() {
           <RainbowHighlight color={'green'}>
             <h1 className="font-bold text-gray-700 dark:text-gray-200 xs:mx-4 my-1">
               Designer.
+            </h1>
+          </RainbowHighlight>
+          <RainbowHighlight color={'maroon'}>
+            <h1 className="font-bold text-gray-700 dark:text-gray-200 xs:mx-4 my-1">
+              Consultant.
+            </h1>
+          </RainbowHighlight>
+          <RainbowHighlight color={'teal'}>
+            <h1 className="font-bold text-gray-700 dark:text-gray-200 xs:mx-4 my-1">
+              Analyst.
             </h1>
           </RainbowHighlight>
           <RainbowHighlight color={'orange'}>
@@ -31,7 +41,12 @@ export default function Hero() {
               Gamer.
             </h1>
           </RainbowHighlight>
-          <RainbowHighlight color={'purple'}>
+          <RainbowHighlight color={'silver'}>
+            <h1 className="font-bold text-gray-700 dark:text-gray-200 xs:mx-4 my-1">
+              Traveller.
+            </h1>
+          </RainbowHighlight>
+          <RainbowHighlight color={'teal'}>
             <h1 className="font-bold text-gray-700 dark:text-gray-200 xs:mx-4 my-1">
               Astronomer.
             </h1>
@@ -41,10 +56,10 @@ export default function Hero() {
       {/* Image container */}
 
       <div className="md:hidden relative text-right">
-        <img src={userData.avatarUrl} alt="avatar" className="shadow w-4/5 mx-2 -mt-6 mb-2" />
+        <img src={userData.avatarUrl} alt="avatar" className="shadow w-3/4 mx-8" />
       </div>
 
-      <div className="hidden md:block lg:block xl:block relative w-full lg:w-3/5 -mr-40 md:-mt-4">
+      <div className="hidden md:block lg:block xl:block relative w-full md:w-4/6 lg:w-3/5 -mr-40 md:-mr-56 md:-mt-2">
         <div className="w-3/5 ">
           <img src={userData.avatarUrl} alt="avatar" className=" shadow" />
           <div className="flex flex-row justify-between mt-4">
