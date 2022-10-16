@@ -9,7 +9,7 @@ export default function Hero() {
     <div className="flex flex-row justify-center items-start overflow-hidden">
       {/* Text container */}
 
-      <div className="text-left text-2xl mx-2 my-1 md:text-6xl lg:text-7xl xl:text-8xl md:mt-12 lg:text-center lg:mt-10 lg:mx-20 xl:mx-32">
+      <div className="text-left text-2xl mx-2 -my-1 md:text-6xl lg:text-7xl xl:text-8xl md:mt-10 md:mx-6 lg:text-center lg:mt-10 lg:mx-20 xl:mx-32">
         <RoughNotationGroup show={true}>
           <RainbowHighlight color={'blue'}>
             <h1 className="font-bold text-gray-700 dark:text-gray-200">
