@@ -6,10 +6,10 @@ import userData from "@constants/data";
 export default function Hero() {
   const colors = ["#F59E0B", "#84CC16", "#10B981", "#3B82F6"];
   return (
-    <div className="flex flex-row justify-center items-start overflow-hidden">
+    <div className="flex flex-row justify-center items-center overflow-hidden">
       {/* Text container */}
 
-      <div className="text-left text-2xl mx-2 -my-1 md:text-6xl lg:text-7xl xl:text-8xl md:mt-10 md:mx-6 lg:text-center lg:mt-10 lg:mx-20 xl:mx-32">
+      <div className="text-left text-2xl mx-2 -my-1 md:text-6xl lg:text-7xl xl:text-8xl md:mx-6 lg:text-center lg:mx-20 xl:mx-32">
         <RoughNotationGroup show={true}>
           <RainbowHighlight color={'blue'}>
             <h1 className="font-bold text-gray-700 dark:text-gray-200">
