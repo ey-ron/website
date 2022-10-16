@@ -56,7 +56,7 @@ export default function Hero() {
       {/* Image container */}
 
       <div className="md:hidden relative text-right">
-        <img src={userData.avatarUrl} alt="avatar" className="shadow w-3/4 mx-8" />
+        <img src={userData.avatarUrl} alt="avatar" className="object-fill -mx-1 ssm:w-3/4 ssm:mx-8 shadow" />
       </div>
 
       <div className="hidden md:block lg:block xl:block relative w-full md:w-4/6 lg:w-3/5 -mr-40 md:-mr-56 md:-mt-2">
