@@ -77,7 +77,7 @@ const userData = {
       year: "2019",
       companyLink: "https://www.uobgroup.com/uobgroup/default.page",
       desc: "Consultant for Trade Transformation Program - Trade Finance.",
-      details: "Primary role as a Technical Delivery Manager who oversees 32 downstream applications, identify risks, and ensure timely delivery of technology solutions.",
+      details: "Primary role as a Technical Delivery Manager who oversees 32 downstream applications, identify risks, and ensures timely delivery of technology solutions.",
     },
     {
       title: "Application Developer",
