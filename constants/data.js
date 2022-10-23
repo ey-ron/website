@@ -64,6 +64,14 @@ const userData = {
   },
   experience: [
     {
+      title: "Vice President",
+      company: "UOB Singapore",
+      year: "2022",
+      companyLink: "https://www.uobgroup.com/uobgroup/default.page",
+      desc: "Technical Delivery Manager - Trade Finance.",
+      details: "Responsible for managing, coordinating, collaboration between different teams and ensuring timely delivery of the project to an acceptable standard within the scope of interface streams.",
+    },
+    {
       title: "Senior Consultant",
       company: "OCBC Singapore",
       year: "2022",
@@ -77,7 +85,7 @@ const userData = {
       year: "2019",
       companyLink: "https://www.uobgroup.com/uobgroup/default.page",
       desc: "Consultant for Trade Transformation Program - Trade Finance.",
-      details: "Primary role as a Technical Delivery Manager who oversees 32 downstream applications, identify risks, and ensures timely delivery of technology solutions.",
+      details: "Oversees 32 downstream applications, identify risks, and ensures timely delivery of technology solutions.",
     },
     {
       title: "Application Developer",
