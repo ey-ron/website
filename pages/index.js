@@ -24,6 +24,8 @@ export default function Home({ repositories }) {
       {/*<FavouriteProjects />*/}
       {/*<LatestCode repositories={repositories} />*/}
 
+
+      
     </ContainerBlock>
   );
 }
