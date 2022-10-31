@@ -17,6 +17,10 @@ export default function SmartContract() {
     .then(currentAddress=> {
       setAddress(currentAddress[0]);
       //console.log("Current Address: ", currentAddress[0]);
+      console.log("length ", currentAddress[0].length);
+      if (currentAddress[0].length) {
+        setMetamask(true);
+      }
 
       window.ethereum.request({method: 'eth_getBalance', params: [currentAddress[0], 'latest']})
       .then(currentAddressBalance=> {
@@ -28,7 +32,6 @@ export default function SmartContract() {
 
   useEffect(() => {
     if (typeof window.ethereum.isMetaMask) {
-      setMetamask(true);
       fetchMetamaskAddressData();
 
       window.ethereum.on('chainChanged', () => {
@@ -38,6 +41,7 @@ export default function SmartContract() {
 
       window.ethereum.on('accountsChanged', () => {
         console.log("Account Changed");
+        setMetamask(false);
         fetchMetamaskAddressData();
       })
 
@@ -49,14 +53,20 @@ export default function SmartContract() {
 
   return (
     <ContainerBlock title="Project - Smart Contract">
-      {!isMetamask &&
+      {isMetamask &&
         <div className="text-center">
         <h2>Metamask Address: {address}</h2>
         <h2>Address Balance : {balance} </h2>
         <br/>
-        <button className="bg-red-500 text-white font-bold py-2 px-4 rounded" onClick={fetchMetamaskAddressData}>Update Details</button>
+        <button className="bg-red-500 text-white font-bold px-4 rounded my-20" onClick={fetchMetamaskAddressData}>Update Details</button>
         <br/>
       </div>}
+
+      {!isMetamask &&
+        <div className="text-center">
+          <button className="text-3xl bg-red-500 text-white font-bold -mt-20 px-4 rounded my-20" onClick={fetchMetamaskAddressData}>Login to Metamask</button> 
+        </div>
+      }
     </ContainerBlock>
   );
 }
