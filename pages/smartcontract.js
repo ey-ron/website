@@ -56,7 +56,8 @@ export default function SmartContract() {
       {isMetamask &&
         <div className="text-center">
         <h2>Metamask Address: {address}</h2>
-        <h2>Address Balance : {balance} </h2>
+        <h2>Address BNB Balance : {balance} </h2>
+        <h2>Address TOKEN Balance : {balance} </h2>
         <br/>
         <button className="bg-red-500 text-white font-bold px-4 rounded my-20" onClick={fetchMetamaskAddressData}>Update Details</button>
         <br/>
