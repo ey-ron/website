@@ -69,7 +69,7 @@ const userData = {
       year: "2022",
       companyLink: "https://www.uobgroup.com/uobgroup/default.page",
       desc: "Technical Delivery Manager - Trade Finance.",
-      details: "Responsible for managing, coordinating, collaboration between different teams and ensuring timely delivery of the project to an acceptable standard within the scope of interface streams.",
+      details: "Responsible for managing, coordinating, collaboration between different teams ensuring timely delivery of the project to an acceptable standard within the scope of interface streams.",
     },
     {
       title: "Senior Consultant",
