@@ -16,34 +16,19 @@ export default function Hero() {
               Developer.
             </h1>
           </RainbowHighlight>
-          <RainbowHighlight color={'green'}>
-            <h1 className="font-bold text-gray-700 dark:text-gray-200 xs:mx-4 my-1">
-              Designer.
-            </h1>
-          </RainbowHighlight>
-          <RainbowHighlight color={'maroon'}>
-            <h1 className="font-bold text-gray-700 dark:text-gray-200 xs:mx-4 my-1">
-              Consultant.
-            </h1>
-          </RainbowHighlight>
           <RainbowHighlight color={'teal'}>
-            <h1 className="font-bold text-gray-700 dark:text-gray-200 xs:mx-4 my-1">
-              Analyst.
-            </h1>
-          </RainbowHighlight>
-          <RainbowHighlight color={'orange'}>
-            <h1 className="font-bold text-gray-700 dark:text-gray-200 xs:mx-4 my-1">
-              Blockchain.
-            </h1>
-          </RainbowHighlight>
-          <RainbowHighlight color={'red'}>
             <h1 className="font-bold text-gray-700 dark:text-gray-200 xs:mx-4 my-1">
               Gamer.
             </h1>
           </RainbowHighlight>
-          <RainbowHighlight color={'silver'}>
+          <RainbowHighlight color={'orange'}>
             <h1 className="font-bold text-gray-700 dark:text-gray-200 xs:mx-4 my-1">
               Traveller.
+            </h1>
+          </RainbowHighlight>
+          <RainbowHighlight color={'red'}>
+            <h1 className="font-bold text-gray-700 dark:text-gray-200 xs:mx-4 my-1">
+              Musician.
             </h1>
           </RainbowHighlight>
           <RainbowHighlight color={'teal'}>

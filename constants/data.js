@@ -1,7 +1,7 @@
 const userData = {
   githubUsername: "ey-ron",
   name: "Aaron Serrano",
-  designation: "Millenial",
+  designation: "Vice President @ UOB",
   avatarUrl: "/avatar2.jpg",
   email: "aaronbserrano@yahoo.com",
   phone: "+65 98145443",
@@ -50,7 +50,7 @@ const userData = {
   ],
   about: {
     title:
-      "Just a software developer with a passion for catching up with the latest technology, proposing solutions and identifying risks that may affect project delivery",
+      "Software developer with a passion for catching up with the latest technology, proposing solutions and identifying risks for the project",
     description: [
       `I've been into computer since I was a kid. I started loving the machine through playing games, it made me discover that there is so much you can do and achieve through a computer.`,
       `I took up IT for College and it opened up a new dimension. I was amazed at how cool programming is.`,
@@ -63,6 +63,14 @@ const userData = {
     currentProjectUrl: "https://tailwindmasterkit.com",
   },
   experience: [
+    {
+      title: "Vice President",
+      company: "UOB Singapore",
+      year: "2023",
+      companyLink: "https://www.uobgroup.com/uobgroup/default.page",
+      desc: "Technical Delivery Manager - Trade Finance",
+      details: "Responsible for overseeing the management and execution of multiple projects from conception to completion, prioritizing the delivery of high-quality outputs that adhere to project timelines.",
+    },
     {
       title: "Senior Consultant",
       company: "OCBC Singapore",

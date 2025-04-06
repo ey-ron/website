@@ -56,7 +56,7 @@ export default function AboutMe() {
                 and I would love to talk with you.
               </p>
             </div>
-            {/* Social Links */}
+            {/* Social Links
             <h1 className="text-xl font-semibold text-gray-700 mt-8 dark:text-gray-200">
               Social Links
             </h1>
@@ -121,20 +121,20 @@ export default function AboutMe() {
                   </p>
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
           {/* Text area */}
           <div className="col-span-1 md:col-span-2">
-            {userData.about.description?.map((desc, idx) => (
+            {/* {userData.about.description?.map((desc, idx) => (
               <p
                 key={idx}
                 className="hidden md:block lg:block text-1xl lg:text-lg mx-2 text-gray-700 mb-4 dark:text-gray-300 "
               >
                 {desc}
               </p>
-            ))}
+            ))} */}
 
-            <br/><br/>
+            <br/>
             <h1 className="bg-red-500 text-center text-1xl md:text-2xl rounded-md px-2 py-1 inline-block font-bold text-gray-50 md:px-4 md:py-2 md:-mt-20">
               Tech Stack
             </h1>
